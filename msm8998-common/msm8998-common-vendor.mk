@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/oneplus/msm8998-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:system/vendor/etc/permissions/com.fingerprints.extension.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -119,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/oneplus/msm8998-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/oneplus/msm8998-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/oneplus/msm8998-common/proprietary/vendor/framework/com.fingerprints.extension.jar:system/vendor/framework/com.fingerprints.extension.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -132,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/oneplus/msm8998-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/oneplus/msm8998-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/oneplus/msm8998-common/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
@@ -986,6 +989,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:system/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so:system/vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so \
@@ -1252,6 +1256,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so \
